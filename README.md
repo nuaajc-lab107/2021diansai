@@ -19,7 +19,7 @@ start_processing.sh	将所有需要的服务放在此脚本内可开机自动执
 
 Download_chuanliu_X_5SECONDS.sh	通过FFmpeg api 将摄像节点A的视频流编码为h.264的MP4文件，时长五秒钟
 
-## 终端节点 
+
 ### Python程序
 Asuoding_pink.py	颜色识别（可修改参数）开机在终端节点显示摄像头A的网络串流数据并追踪
 
