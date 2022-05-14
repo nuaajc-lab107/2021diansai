@@ -1,14 +1,14 @@
-##本项目为2021全国大学生电子设计竞赛互联网测量
+## 本项目为2021全国大学生电子设计竞赛互联网测量
 
-#程序介绍
+# 程序介绍
 
-##摄像节点 
-###Linux程序
+## 摄像节点 
+### Linux程序
 start_stream.sh	    开机创建USB 摄像头串流服务
 
 start_browser.sh	完成基本要求的(1)、(2) 开机自动采用浏览器打开串流地址的方式显示各自节点的摄像头的视野 
-##终端节点 
-###Linux程序
+## 终端节点 
+### Linux程序
 A.sh	调用Asuoding_pink.py挂在后台终端
 
 B.sh	调用Bsuoding_pink.py挂在后台终端
@@ -19,8 +19,8 @@ start_processing.sh	将所有需要的服务放在此脚本内可开机自动执
 
 Download_chuanliu_X_5SECONDS.sh	通过FFmpeg api 将摄像节点A的视频流编码为h.264的MP4文件，时长五秒钟
 
-##终端节点 
-###Python程序
+## 终端节点 
+### Python程序
 Asuoding_pink.py	颜色识别（可修改参数）开机在终端节点显示摄像头A的网络串流数据并追踪
 
 Bsuoding_pink.py	颜色识别（可修改参数）开机在终端节点显示摄像头B的网络串流数据并追踪
